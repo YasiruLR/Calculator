@@ -117,31 +117,3 @@ button:hover {
 }
 
 
-/* Responsive adjustments for smaller screens */
-@media (max-width: 400px) {
-  .calculator {
-    padding: 15px;
-  }
-
-  .display {
-    font-size: 20px;
-    padding: 8px;
-  }
-
-  .buttons {
-    grid-template-columns: repeat(2, 1fr); /* Stack buttons in 2 columns */
-    gap: 8px;
-  }
-
-  button {
-    padding: 16px;
-    font-size: 16px;
-  }
-
-  .email-footer {
-    font-size: 12px;
-    padding: 6px 10px;
-    right: 5px;
-    bottom: 5px;
-  }
-}
