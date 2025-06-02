@@ -118,3 +118,34 @@ button:hover {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); /* Enhanced hover shadow */
 }
 
+/* Responsive Design */
+@media (max-width: 400px) {
+  .calculator {
+    max-width: 280px; /* Smaller width for mobile */
+    padding: 15px;
+  }
+
+  .display {
+    font-size: 24px;
+    height: 60px;
+  }
+
+  button {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .clock {
+    font-size: 18px;
+    padding: 8px 16px;
+    top: 10px;
+    right: 10px;
+  }
+
+  .email-footer {
+    font-size: 12px;
+    padding: 8px 12px;
+    bottom: 10px;
+    right: 10px;
+  }
+}
