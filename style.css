@@ -97,26 +97,6 @@ button:hover {
   overflow-wrap: break-word; /* Modern alternative to word-wrap */
 }
 
-.clock {
-  position: fixed; /* Changed to fixed for better positioning */
-  top: 20px;
-  right: 20px;
-  padding: 12px 24px;
-  background: linear-gradient(135deg, #7b2cbf 0%, #3a86ff 100%); /* Softer gradient */
-  color: #fff;
-  font-size: 22px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  letter-spacing: 1px;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
-  z-index: 10;
-}
-
-.clock:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); /* Enhanced hover shadow */
-}
 
 /* Responsive Design */
 @media (max-width: 400px) {
