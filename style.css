@@ -84,5 +84,16 @@ button:hover {
   background-color: #e53935;
 }
 
-
+.email-footer {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #e0e0e0; /* Lighter, modern gray */
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 13px; /* Slightly smaller for compactness */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  max-width: 80%; /* Responsive width */
+  overflow-wrap: break-word; /* Modern alternative to word-wrap */
+}
 
